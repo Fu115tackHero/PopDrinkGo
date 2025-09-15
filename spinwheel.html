@@ -2,9 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Spin & Win!</title>
     <link rel="stylesheet" href="style-spinwheel.css" />
+    <style>
+      @media (max-width: 600px) {
+        .container {
+          padding: 10px !important;
+          max-width: 100% !important;
+        }
+        .wheel-container {
+          width: 180px !important;
+          height: 180px !important;
+        }
+        h1 {
+          font-size: 1.2em !important;
+        }
+        #spin-button {
+          font-size: 1em !important;
+          padding: 10px 18px !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">

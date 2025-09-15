@@ -2,9 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Dashboard - PopDrinkGo</title>
     <link rel="stylesheet" href="style-dashboard.css" />
+    <style>
+      @media (max-width: 768px) {
+        .page-header,
+        .page-navigation,
+        .page-footer {
+          padding: 10px !important;
+        }
+        .page-content,
+        .page-sidebar {
+          padding: 10px !important;
+        }
+        .feature-section,
+        .info-section {
+          padding-bottom: 10px !important;
+        }
+        h2,
+        h3 {
+          font-size: 1.2em !important;
+        }
+        .small-logo {
+          height: 22px !important;
+        }
+        button {
+          font-size: 1em !important;
+          padding: 10px 18px !important;
+        }
+      }
+    </style>
     <script
       src="https://unpkg.com/html5-qrcode"
       type="text/javascript"
